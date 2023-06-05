@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Encuesta Campus Virtual Gerez Josue</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>ENCUESTA CAMPUS VIRTUAL</h1>    
+<form action="" method="GET">
+<label for="nom">NOMBRE: </label>
+<input type="text" name="Nombre" maxlength="50"/><br><br>
+
+DEPARTAMENTO: 
+<select name="select">
+    <option value="value0" selected>Seleccione un departamento</option>
+    <option value="value1">Abogacía</option>
+    <option value="value2">Arquitectura</option>
+    <option value="value3">Informática</option>
+    <option value="value4">Contador público</option>
+    <option value="value5">Escribanía</option>
+    <option value="value6">Electrónica</option>
+
+  </select><br><br>
+  <B>SEDE: </B>
+  <select name="select">
+      <option value="value0" selected>Seleccione una sede</option>
+      <option value="value1">SANTIAGO DEL ESTERO</option>
+      <option value="value2">SAN SALVADOR DE JUJUY</option>
+      <option value="value3">RAFAELA</option>
+      <option value="value4">BUENOS AIRES</option>
+  
+    </select><br><br>
+    <label for="mail">E-MAIL: </label>
+    <input type="text" name="email" maxlength="50"/><br><br>
+    <label for="tel">TELÉFONO: </label>
+    <input type="text" name="telf" maxlength="50"/><br><br>
+
+<label for="uti">¿Utiliza habitualmente el Campus Virtual? </label>
+Sí<input type="radio" name="uti" value="h"/>
+No<input type="radio" name="uti" value="m"/>
+<br><br>
+
+<label for="uti">¿Estaría interesado/a en recibir formación personalizada sobre las posibilidades de esta herramienta informática? </label>
+Sí<input type="radio" name="uti" value="h"/>
+No<input type="radio" name="uti" value="m"/>
+<br><br>
+
+<h2>CALENDARIO APROXIMADO DE FORMACIÓN</h2>    
+TURNO PREFERENTE: 
+Mañana<input type="checkbox" name="info" checked="checked"/>
+Tarde<input type="checkbox" name="info"/>
+<br>
+MES PREFERENTE: 
+<select name="select">
+    <option value="value0" selected>Seleccione un mes</option>
+    <option value="value1">Enero</option>
+    <option value="value2">Febrero</option>
+    <option value="value3">Marzo</option>
+    <option value="value4">Abril</option>
+    <option value="value5">Mayo</option>
+    <option value="value6">Junio</option>
+    <option value="value7">Julio</option>
+    <option value="value8">Agosto</option>
+    <option value="value9">Septiembre</option>
+    <option value="value10">Octubre</option>
+    <option value="value11">Noviembre</option>
+    <option value="value12">Diciembre</option>
+  </select><br><br>
+
+HORARIO PREFERENTE: 
+<select name="select">
+    <option value="value0" selected>Seleccione un horario</option>
+    <option value="value1">08:00</option>
+    <option value="value2">09:00</option>
+    <option value="value3">10:00</option>
+    <option value="value4">11:00</option>
+    <option value="value5">12:00</option>
+    <option value="value6">16:00</option>
+    <option value="value7">17:00</option>
+    <option value="value8">18:00</option>
+    <option value="value9">19:00</option>
+    <option value="value10">20:00</option>
+    <option value="value11">21:00</option>
+    <option value="value12">22:00</option>
+  </select><br><br>
+  
+  <div style="display: flex; flex:row; gap:2rem">
+    <label for="Comentario" style="justify-self: center; align-self: center;">COMENTARIOS:</label>
+    <textarea name="Comentario" id="" cols="30" rows="10" placeholder="Escriba su comentario"></textarea>
+    </div>
+
+
+
+    <div style="display: flex; flex-direction: row; gap: 1rem; margin-left: 10px; margin-top: 25px">
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar">
+    </div>
+</form>
+</body>
+</html>
